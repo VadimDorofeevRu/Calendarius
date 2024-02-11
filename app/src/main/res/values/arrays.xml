@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="full_day_names">
+        <item>@string/day_monday</item>
+        <item>@string/day_tuesday</item>
+        <item>@string/day_wednesday</item>
+        <item>@string/day_thursday</item>
+        <item>@string/day_friday</item>
+        <item>@string/day_saturday</item>
+        <item>@string/day_sunday</item>
+    </string-array>
+    <string-array name="full_day_values">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+        <item>saturday</item>
+        <item>sunday</item>
+    </string-array>
+    <string-array name="full_day_values_default">
+        <item>sunday</item>
+    </string-array>
+
+    <string-array name="darkmode_names">
+        <item>@string/settings_darkmode_on</item>
+        <item>@string/settings_darkmode_off</item>
+        <item>@string/settings_darkmode_system</item>
+    </string-array>
+    <string-array name="darkmode_values">
+        <item>on</item>
+        <item>off</item>
+        <item>system</item>
+    </string-array>
+
+    <string-array name="holidays_country_names">
+        <item>@string/settings_holidays_none</item>
+        <item>@string/settings_holidays_russia</item>
+        <item>@string/settings_holidays_belarus</item>
+    </string-array>
+    <string-array name="holidays_country_values">
+        <item>none</item>
+        <item>ru</item>
+        <item>by</item>
+    </string-array>
+
+</resources>

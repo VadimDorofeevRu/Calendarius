@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Календарий</string>
+    <string name="button_settings">Параметры</string>
+    <string-array name="day_names">
+        <item>ВС</item>
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+    </string-array>
+    <string-array name="month_names">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string name="title_activity_settings">Параметры</string>
+    <string name="settings_appearance_header">Внешний вид</string>
+    <string name="settings_lighten_past">Осветлять прошедшие дни</string>
+    <string name="settings_theme">Цветовая тема</string>
+    <string name="settings_red_days_header">Дни недели, помечаемые как выходные</string>
+    <string name="day_monday">Понедельник</string>
+    <string name="day_tuesday">Вторник</string>
+    <string name="day_wednesday">Среда</string>
+    <string name="day_thursday">Четверг</string>
+    <string name="day_friday">Пятница</string>
+    <string name="day_saturday">Суббота</string>
+    <string name="day_sunday">Воскресенье</string>
+    <string name="settings_darkmode">Тёмная тема</string>
+    <string name="settings_darkmode_on">Всегда включена</string>
+    <string name="settings_darkmode_off">Всегда выключена</string>
+    <string name="settings_darkmode_system">Как в системе</string>
+    <string name="settings_holidays">Помечать выходные дни страны</string>
+    <string name="settings_holidays_none">Нет</string>
+    <string name="settings_holidays_russia">Россия</string>
+    <string name="settings_holidays_belarus">Беларусь</string>
+    <string name="settings_about_software">О программе</string>
+    <string name="settings_privacy_policy">Политика приватности</string>
+    <string name="settings_privacy_policy_title">Политика приватности</string>
+    <string name="settings_privacy_policy_text">Наша политика приватности для приложения "Календарий" очень проста: мы не собираем и не храним ваши данные, и никак не отслеживаем использование нашего приложения.</string>
+    <string name="settings_privacy_policy_close">Закрыть</string>
+    <string name="settings_privacy_policy_visit_site">Посетить сайт</string>
+    <string name="color_theme_classic">Классическая</string>
+    <string name="color_theme_climate">Климат</string>
+    <string name="color_theme_spectrum">Спектр</string>
+</resources>

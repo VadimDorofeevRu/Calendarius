@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Calendarius" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorBg">@color/white</item>
+        <item name="colorTodayBg">@color/light_gray</item>
+        <item name="colorStrip">@color/gray</item>
+        <item name="colorStripText">@color/black</item>
+        <item name="colorRegularDay">@color/black</item>
+        <item name="colorRegularDayPast">@color/gray</item>
+        <item name="colorWeekend">@color/red</item>
+        <item name="colorWeekendPast">@color/light_red</item>
+    </style>
+
+    <style name="Theme.Calendarius" parent="Base.Theme.Calendarius" />
+
+    <attr name="colorBg" format="color"/>
+    <attr name="colorTodayBg" format="color"/>
+    <attr name="colorStrip" format="color"/>
+    <attr name="colorStripText" format="color"/>
+    <attr name="colorRegularDay" format="color"/>
+    <attr name="colorRegularDayPast" format="color"/>
+    <attr name="colorWeekend" format="color"/>
+    <attr name="colorWeekendPast" format="color"/>
+</resources>

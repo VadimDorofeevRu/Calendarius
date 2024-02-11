@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/settings_appearance_header"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:key="darkmode"
+            app:entries="@array/darkmode_names"
+            app:entryValues="@array/darkmode_values"
+            app:defaultValue="system"
+            app:title="@string/settings_darkmode"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:key="theme"
+            app:defaultValue="climate"
+            app:title="@string/settings_theme"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="lighten_past"
+            app:title="@string/settings_lighten_past"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+        <MultiSelectListPreference
+            app:key="weekends"
+            app:title="@string/settings_red_days_header"
+            app:entries="@array/full_day_names"
+            app:entryValues="@array/full_day_values"
+            app:defaultValue="@array/full_day_values_default"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:key="country_holidays"
+            app:entries="@array/holidays_country_names"
+            app:entryValues="@array/holidays_country_values"
+            app:defaultValue="none"
+            app:title="@string/settings_holidays"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/settings_about_software"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="privacyPolicy"
+            app:title="@string/settings_privacy_policy"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
